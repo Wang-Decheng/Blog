@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = "wdc's Blog"
+theme = 'hugo-theme-stack'
+[Params.Sidebar]
+  compact = false
+  emoji = "🌟"
+  subtitle = "Welcome"
+
+  [Params.Sidebar.avatar]
+    enabled = true
+    src = "images/avatar.jpg"
+    local = false
+
